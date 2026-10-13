@@ -50,6 +50,8 @@ AI 产品常把能力列表、执行过程和长解释展示给用户，却让�
 
 入口 [SKILL.md](../skills/instinct-design/SKILL.md) 放原则、触发条件和读取路由。需要相应任务时才读：
 
+- [Instinct 深拆](../skills/instinct-design/references/instinct-teardown.md)，用 REA 的证据思路提炼机制、迁移条件、反例与检查；不声称取得内部架构或运行证据。
+- [实践练习](../skills/instinct-design/references/pattern-lab.md)，把部分成功、权限撤回和通知原则落到具体设计任务。
 - [产品理念](../skills/instinct-design/references/product-philosophy.md)，处理价值与取舍。
 - [消息结构](../skills/instinct-design/references/message-design.md)，处理回复、状态、通知和错误。
 - [交互](../skills/instinct-design/references/interaction-design.md)，处理分层、流程、授权与恢复。

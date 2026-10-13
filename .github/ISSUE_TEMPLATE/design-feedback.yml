@@ -1,0 +1,39 @@
+name: Design feedback
+description: Share a sanitized task and the concrete consequence of the result.
+title: "[Design feedback] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Remove private data and credentials. Submit only material you can publish. A synthetic task is welcome; label it as synthetic."
+  - type: textarea
+    id: task
+    attributes:
+      label: Task and constraints
+      description: What did you need to design, and what facts or constraints were available?
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Actual output and consequence
+      description: Paste the sanitized result. What was useful, or what might make the user act incorrectly?
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Agent and Skill version
+      description: Include the client, model when known, and version. Unknown is acceptable.
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparison or repeat use
+      description: If available, share the same task without the Skill, or what happened when you used it again. Do not invent a comparison.
+  - type: checkboxes
+    id: publication
+    attributes:
+      label: Publication scope
+      options:
+        - label: The supplied content is sanitized and I have permission to publish it in this issue.
+          required: true

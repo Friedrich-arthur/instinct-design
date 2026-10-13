@@ -6,11 +6,19 @@ Reviewed on 2026-10-13. This is an independent design synthesis, not an official
 
 [Instinct's official site](https://instinct.com/) describes a personal assistant that understands the user's context and can be contacted through text or calls. The page was read during preparation of this version. Its phrase "there are no new interfaces" supports familiar entry points. The site does not establish a complete message protocol or brand system.
 
-## Interview inspiration
+## Interview inspiration and chapter evidence
 
-[Public interview video associated with Noah Shinn](https://www.youtube.com/watch?v=Am7IWP8IpEc) is the source linked by the author's research notes. The inherited notes describe understandability, predictable behavior, information near the beginning of a message, contextual capability, progressive trust, and selective interruption.
+[Official Noah Shinn interview page](https://colossus.com/episode/instinct-the-personal-agent/) is dated 2026-09-28 and provides a public chapter guide. Topics include comprehension at 44:43, trust at 21:00, security at 23:25, interface direction at 1:08:32, goals at 1:12:35, and brand at 1:16:27. The page was inspected for v0.2.0. Chapter topics are confirmed; the complete transcript requires sign-in and was not retrieved.
 
-The notes were summarized from machine-recognized material. The original transcript was not recovered or checked line by line for this release. The video URL and page title were checked, but that does not verify every summarized claim. No verbatim founder quotation, precise interview timestamp, product usage metric, or investment figure is used as evidence of this Skill's effectiveness.
+The inherited notes were summarized from machine-recognized material. They provide interpretations, not a verified transcript. Their mirrored-video timing differs from the official chapter timing, so the current teardown uses the official guide. A chapter supports its topic, not every detailed claim in the notes. No product usage metric or investment figure is used as evidence of this Skill's effectiveness.
+
+## Access, data, and external effects
+
+The inspected [privacy policy](https://instinct.com/privacy-policy) distinguishes disconnecting an integration from deleting previously collected data. The [service terms](https://instinct.com/terms) describe connected services and external actions. This supports a concrete design question about retained data and committed effects. It does not verify the actual deletion flow or establish the security of the service.
+
+## REA method
+
+[REA's upstream repository](https://github.com/morluto/rea) describes an evidence-led reverse-engineering workflow. This Skill adapts the distinction between observation, inference, and unknowns to public product research. It does not install REA, run its MCP, or claim binary/runtime analysis of Instinct. The teardown and exercises are original applications of that approach.
 
 ## The author's method
 

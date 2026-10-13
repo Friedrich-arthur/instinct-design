@@ -1,9 +1,9 @@
 ---
 name: instinct-design
-description: Design or review AI products with outcome-first messages, familiar interactions, progressive disclosure, calm visual hierarchy, predictable actions, and user control. Use for AI assistant UX, agent task flows, product screens, notifications, or product design specs. Supports existing interfaces and design systems.
+description: Borrow useful product ideas from Instinct with evidence-based teardown, outcome-first messages, progressive disclosure, calm visual hierarchy, predictable actions, and user control. Use for Instinct design analysis, AI assistant UX, agent task flows, product screens, notifications, or product design specs. Supports existing interfaces and design systems.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Instinct design
@@ -34,6 +34,8 @@ Read only the reference needed for the current task. Do not load this whole tabl
 
 | Task | Reference |
 | --- | --- |
+| Learning from Instinct or reverse engineering a product idea | [Evidence-based Instinct teardown](references/instinct-teardown.md) |
+| Trying a pattern on a real message, permission flow, or notification | [Pattern lab](references/pattern-lab.md) |
 | Product positioning, value, or tradeoffs | [Product philosophy](references/product-philosophy.md) |
 | Assistant replies, status, errors, or notifications | [Message design](references/message-design.md) |
 | Screens, task flows, disclosure, or authorization | [Interaction design](references/interaction-design.md) |
@@ -42,6 +44,8 @@ Read only the reference needed for the current task. Do not load this whole tabl
 | Checking attribution or interpreting Instinct claims | [Sources and boundaries](references/sources.md) |
 
 ## Finish on the requested artifact
+
+For product borrowing, distinguish public claims, observations, inferred mechanisms, and your design proposal. Pair the chosen pattern with its conditions, failure case, and a check. Never infer internal architecture or successful runtime behavior from a product page. Use a relevant pattern rather than reproducing this whole framework for a small task.
 
 Show the proposed result first. Explain the consequential design choice briefly. For a spec, define the primary view, the expanded view, and the relevant failure or recovery state. For an implementation, inspect the actual experience and report what was verified. A written spec does not prove that memory, permissions, automation, persistence, or task execution works.
 

@@ -1,8 +1,10 @@
 # Instinct design
 
-Design AI products that put the result first and reveal useful depth when the user needs it.
+Borrow practical product ideas from Instinct, then design clearer AI assistant messages, interfaces, permissions, and recovery.
 
-[中文说明](README.zh-CN.md) · [Skill](skills/instinct-design/SKILL.md) · [Design document 中文](docs/design.zh-CN.md)
+Independent and unaffiliated. Eight evidence-backed patterns, three synthetic practice tasks, and a short Skill that reveals depth when you need it.
+
+[Try the patterns](https://friedrich-arthur.github.io/instinct-design/) · [中文说明](README.zh-CN.md) · [Instinct teardown](skills/instinct-design/references/instinct-teardown.md) · [Pattern lab](skills/instinct-design/references/pattern-lab.md)
 
 > **Before:** "Workflow complete! The publishing connector returned an error. See logs."
 >
@@ -35,7 +37,13 @@ You can also ask it to rewrite a notification, design an agent task flow, or rev
 - Actions have predictable states, visible boundaries, and recovery paths.
 - Visual hierarchy and restraint clarify the user's job.
 
-The core is short. Five focused references cover philosophy, messages, interaction, visual craft, and review. A separate source note records attribution and evidence limits. The agent reads the relevant depth for the task.
+The core is short. Eight references cover the Instinct teardown, pattern lab, philosophy, messages, interaction, visual craft, review, and source boundaries. The agent reads only the relevant depth for the task.
+
+## Learn one useful pattern
+
+The [teardown](skills/instinct-design/references/instinct-teardown.md) applies an evidence-led Reverse Engineer Anything approach to public product materials. Each pattern includes its evidence, mechanism hypothesis, transferable design, boundary, and check. It does not claim access to Instinct's implementation.
+
+Try the [pattern lab](skills/instinct-design/references/pattern-lab.md) on a partly completed task, an account-disconnection receipt, or notification choices. Pick one real product problem and produce an artifact you can assess.
 
 ## See the changes
 
@@ -52,6 +60,8 @@ These are synthetic examples. They do not document customer results or actual In
 The repository includes [five evaluation prompts](evals/cases.json), including authorized continuation and the risk of hiding payment behind minimalism. Read [validation scope](evals/README.md) before interpreting any result. A formatted Skill is not evidence of better user outcomes.
 
 To report a failure, open an issue with a sanitized task, the observed output, and the consequence. To contribute, submit the smallest rule or example that addresses an observable defect. Do not include private customer data, transcripts, credentials, or product screenshots you cannot publish.
+
+The [growth plan](docs/growth-plan.md) links six executable tickets. The [launch kit](docs/launch-kit.md) provides channel-specific lessons and directory listing text. Publication, indexing, real adoption, and Stars are tracked separately.
 
 ## Attribution
 

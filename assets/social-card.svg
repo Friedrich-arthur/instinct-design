@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Learn from Instinct. Build clearer AI products.</title>
+  <desc id="desc">Independent product design Skill. Eight evidence-backed patterns and three original exercises for messages, permissions, and attention.</desc>
+  <rect width="1200" height="630" fill="#f5f3ed"/>
+  <rect x="810" width="390" height="630" fill="#183f35"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="58" y="70" font-size="16" font-weight="700" letter-spacing="2" fill="#43685c">INDEPENDENT PRODUCT DESIGN SKILL</text>
+    <text x="58" y="185" font-size="65" font-weight="700" fill="#183f35">Learn from</text>
+    <text x="58" y="261" font-size="65" font-weight="700" fill="#183f35">Instinct.</text>
+    <text x="58" y="333" font-size="31" fill="#315447">Build clearer AI products.</text>
+    <text x="58" y="389" font-size="23" fill="#59685e">8 patterns. 3 exercises.</text>
+    <text x="58" y="423" font-size="23" fill="#59685e">Evidence, conditions, and real limits.</text>
+    <rect x="58" y="471" width="343" height="58" rx="12" fill="#183f35"/>
+    <text x="82" y="508" font-size="21" font-weight="700" fill="#fff">Try one design pattern</text>
+    <text x="58" y="585" font-size="15" fill="#59685e">github.com/Friedrich-arthur/instinct-design</text>
+    <line x1="850" y1="155" x2="1160" y2="155" stroke="#5f8a74"/>
+    <text x="850" y="135" font-size="16" fill="#b9d4c0">A QUIET FRONT</text>
+    <text x="850" y="229" font-size="29" font-weight="700" fill="#f5f3ed">Result first.</text>
+    <text x="850" y="303" font-size="27" font-weight="700" fill="#f5f3ed">Depth on demand.</text>
+    <text x="850" y="377" font-size="26" font-weight="700" fill="#f5f3ed">Control stays visible.</text>
+    <line x1="850" y1="433" x2="1160" y2="433" stroke="#5f8a74"/>
+    <text x="850" y="478" font-size="15" fill="#b9d4c0">Original design method.</text>
+    <text x="850" y="503" font-size="15" fill="#b9d4c0">Unaffiliated with Instinct.</text>
+  </g>
+</svg>
