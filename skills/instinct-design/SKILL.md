@@ -3,7 +3,7 @@ name: instinct-design
 description: Borrow useful product ideas from Instinct with evidence-based teardown, outcome-first messages, progressive disclosure, calm visual hierarchy, predictable actions, and user control. Use for Instinct design analysis, AI assistant UX, agent task flows, product screens, notifications, or product design specs. Supports existing interfaces and design systems.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Instinct design

@@ -34,3 +34,11 @@ Run each prompt in [cases.json](cases.json) as a separate task with minimal inpu
 Record the actual artifact, relevant loaded references, the model and context setup when available, and any failure. Add a new case when a real defect justifies it. Do not turn wording matches into proof of a good experience.
 
 Live email sending, buying, import execution, payment, account deletion, persistence, accessibility compliance, and runtime performance were not exercised. They are design requirements in these outputs, not implemented capabilities of this Skill.
+
+## v0.2.0 product borrowing and public entry point
+
+The updated Skill adds an evidence-backed Instinct teardown and a pattern lab. A fresh agent used the Skill on a minimal email-disconnection screen with retained indexed messages, two unsent drafts, and a previously sent newsletter. Its actual artifact kept those states distinct, defined relevant detail and recovery views, and did not invent Instinct's runtime or assume that unsent drafts were queued jobs. This is a bounded qualitative trial, not proof of superiority over the baseline. Broader paired trials remain in [ticket #4](https://github.com/Friedrich-arthur/instinct-design/issues/4).
+
+The bilingual static landing pages were exercised using bundled Playwright and an installed Edge browser. English and Chinese views were checked at 1440 and 390 pixels, including copying the real installation command, all eight attention-condition combinations, keyboard access, refresh reset, and content without JavaScript. An independent check covered 320 pixels and clipboard denial. The exercise intentionally has no persistent state and resets on refresh. No third-party script, analytics, cookie, or account action is part of the page.
+
+Review found an undersized example-disclosure target; it was enlarged to 44 pixels before the final check. Metadata, language alternates, and structured data were inspected separately from search indexing. Page publication does not establish search ranking, AI citation, directory listing, audience traffic, or useful adoption.

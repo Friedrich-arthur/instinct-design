@@ -90,8 +90,8 @@ Install: npx skills add Friedrich-arthur/instinct-design --skill instinct-design
 | Destination | Useful entry | Publication gate |
 | --- | --- | --- |
 | [skills.sh](https://www.skills.sh/docs/faq) | Real installation and the standard Skill folder | Listing depends on the directory's actual processing; verify the real detail body and index status |
-| [VoltAgent agent-skills collection](https://github.com/VoltAgent/awesome-agent-skills) | A scoped entry with install command and practical examples | Read the current contribution rules and prepare a permitted submission; acceptance is not guaranteed |
-| [Composio Claude-skills collection](https://github.com/ComposioHQ/awesome-claude-skills) | Product-design category and source-backed value | Verify its current scope and contribution rules before submitting |
+| [VoltAgent agent-skills collection](https://github.com/VoltAgent/awesome-agent-skills) | A scoped entry with install command and practical examples | Current [rules](https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md) reject brand-new Skills without real community use; wait for actual use evidence |
+| [Composio Claude-skills collection](https://github.com/ComposioHQ/awesome-claude-skills) | Product-design category and source-backed value | Current [rules](https://github.com/ComposioHQ/awesome-claude-skills/blob/master/CONTRIBUTING.md) require Claude testing and a packaged contribution; that evidence and format are not yet satisfied |
 | X and LinkedIn | A single useful lesson plus a practice link | Requires the actual publishing account and permission to post |
 | 中文产品与开发者社区 | 中文 lesson、真实例子、安装入口 | 选相关版块并核验当下规则；使用本人已授权账号 |
 | [Show HN](https://news.ycombinator.com/showhn.html) | Only a substantial, directly tryable artifact | The current lightweight documentation and exercise may not meet its bar; reassess after actual task evidence |
