@@ -59,7 +59,9 @@ The source for the policy lesson is https://instinct.com/privacy-policy. Keep th
 
 Use the community's actual topic and self-promotion rules. A suitable discussion begins with the product lesson and supports replies with evidence. Do not copy the same promotional post into many unrelated discussions.
 
-## 中文长文：可展开的文章骨架
+## 中文长文：完整文章与可用入口
+
+[完整中文文章](https://friedrich-arthur.github.io/instinct-design/zh/guide/)已写出八个模式、证据边界、反例、借鉴卡和三个练习。可在适合的社区分享原链接；发布到其他平台时遵守账号授权与平台规则。它由 Skill 内原文生成。
 
 标题建议：**从 Instinct 借鉴 AI 产品设计：8 个模式，3 个实践练习**
 
@@ -73,7 +75,9 @@ Use the community's actual topic and self-promotion rules. A suitable discussion
 
 > 先选一个模式，改一条消息或一个流程，再让真实使用者判断能否看懂结果和下一步。文档、截图和安装成功各有证据边界，真实改善需要实际任务反馈。
 >
-> 中文入口：https://friedrich-arthur.github.io/instinct-design/zh/?utm_source=article&utm_medium=content&utm_campaign=instinct_v02
+> 中文深拆：https://friedrich-arthur.github.io/instinct-design/zh/guide/?utm_source=article&utm_medium=content&utm_campaign=instinct_v03
+
+新的短分享开头可用：“对 Instinct 感兴趣，可以先带走一个具体设计思路。比如账号断开后，未来访问、保留数据和已发生的外部行动要分别交代。我把这些证据与迁移条件写成八个模式，附可直接填写的借鉴卡。”只选择一个主链接，先给读者价值，再引导安装。
 
 ## Directory listing text
 

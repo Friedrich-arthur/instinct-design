@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instinct 产品拆解：八个可以借鉴的设计思路 | Instinct design</title>
+  <meta name="description" content="用 REA 的证据思路拆解 Instinct AI 私人助理。八个产品设计模式逐项给出来源、机制、迁移条件与反例，附中文借鉴卡和三个可动手的练习。">
+  <link rel="canonical" href="https://friedrich-arthur.github.io/instinct-design/zh/guide/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="从 Instinct 借鉴产品设计的八个思路">
+  <meta property="og:description" content="有证据、有边界的独立产品拆解。拿一张自己的页面开始借鉴。">
+  <meta property="og:url" content="https://friedrich-arthur.github.io/instinct-design/zh/guide/">
+  <meta property="og:image" content="https://friedrich-arthur.github.io/instinct-design/share-card.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="从 Instinct 借鉴产品设计的八个思路">
+  <meta name="twitter:description" content="有证据边界的独立产品拆解，附中文借鉴卡与实战练习。">
+  <meta name="twitter:image" content="https://friedrich-arthur.github.io/instinct-design/share-card.png">
+  <link rel="stylesheet" href="../../site.css">
+  <link rel="stylesheet" href="../../guide.css">
+  <script type="application/ld+json">{{schema}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="../"><span class="brand-mark" aria-hidden="true">i</span>Instinct design</a>
+    <nav aria-label="主导航"><a href="../">中文首页</a><a href="../#install">安装 Skill</a><a href="https://github.com/Friedrich-arthur/instinct-design">GitHub</a></nav>
+  </header>
+  <main id="main" class="guide-wrap">
+    <p class="eyebrow">独立 REA 产品拆解 · Friedrich-arthur · 2026-10-13</p>
+    <details class="guide-toc"><summary>选择你要借鉴的思路</summary>{{toc}}</details>
+    <article class="guide-body">{{body}}</article>
+    <div class="guide-next"><p>带来一个真实问题，让助手输出可以直接评审的设计。</p><a class="primary-link" href="../#install">安装与使用</a><p><a href="https://github.com/Friedrich-arthur/instinct-design/issues/new/choose">提交可公开的设计反馈</a></p></div>
+  </main>
+  <footer class="site-footer wrap"><p>原创内容 © 2026 Friedrich-arthur · <a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE">MIT</a></p><p>独立、非官方 · <a href="../../" lang="en">English overview</a></p></footer>
+</body>
+</html>

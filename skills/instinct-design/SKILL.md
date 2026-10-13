@@ -3,7 +3,7 @@ name: instinct-design
 description: Borrow useful product ideas from Instinct with evidence-based teardown, outcome-first messages, progressive disclosure, calm visual hierarchy, predictable actions, and user control. Use for Instinct design analysis, AI assistant UX, agent task flows, product screens, notifications, or product design specs. Supports existing interfaces and design systems.
 license: MIT
 metadata:
-  version: "0.2.1"
+  version: "0.3.0"
 ---
 
 # Instinct design
@@ -35,6 +35,7 @@ Read only the reference needed for the current task. Do not load this whole tabl
 | Task | Reference |
 | --- | --- |
 | Learning from Instinct or reverse engineering a product idea | [Evidence-based Instinct teardown](references/instinct-teardown.md) |
+| Learning the patterns in Chinese, with a borrowing worksheet and exercises | [中文深拆与实战指南](references/instinct-teardown.zh-CN.md) |
 | Trying a pattern on a real message, permission flow, or notification | [Pattern lab](references/pattern-lab.md) |
 | Product positioning, value, or tradeoffs | [Product philosophy](references/product-philosophy.md) |
 | Assistant replies, status, errors, or notifications | [Message design](references/message-design.md) |

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instinct 产品拆解：八个可以借鉴的设计思路 | Instinct design</title>
+  <meta name="description" content="用 REA 的证据思路拆解 Instinct AI 私人助理。八个产品设计模式逐项给出来源、机制、迁移条件与反例，附中文借鉴卡和三个可动手的练习。">
+  <link rel="canonical" href="https://friedrich-arthur.github.io/instinct-design/zh/guide/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="从 Instinct 借鉴产品设计的八个思路">
+  <meta property="og:description" content="有证据、有边界的独立产品拆解。拿一张自己的页面开始借鉴。">
+  <meta property="og:url" content="https://friedrich-arthur.github.io/instinct-design/zh/guide/">
+  <meta property="og:image" content="https://friedrich-arthur.github.io/instinct-design/share-card.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="从 Instinct 借鉴产品设计的八个思路">
+  <meta name="twitter:description" content="有证据边界的独立产品拆解，附中文借鉴卡与实战练习。">
+  <meta name="twitter:image" content="https://friedrich-arthur.github.io/instinct-design/share-card.png">
+  <link rel="stylesheet" href="../../site.css">
+  <link rel="stylesheet" href="../../guide.css">
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "从 Instinct 借鉴产品设计的八个思路",
+  "description": "独立 REA 产品拆解，包含证据边界、迁移条件、反例与练习。",
+  "inLanguage": "zh-CN",
+  "url": "https://friedrich-arthur.github.io/instinct-design/zh/guide/",
+  "mainEntityOfPage": "https://friedrich-arthur.github.io/instinct-design/zh/guide/",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "author": {
+    "@type": "Person",
+    "name": "Friedrich-arthur",
+    "url": "https://github.com/Friedrich-arthur"
+  },
+  "license": "https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE",
+  "image": "https://friedrich-arthur.github.io/instinct-design/share-card.png"
+}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="../"><span class="brand-mark" aria-hidden="true">i</span>Instinct design</a>
+    <nav aria-label="主导航"><a href="../">中文首页</a><a href="../#install">安装 Skill</a><a href="https://github.com/Friedrich-arthur/instinct-design">GitHub</a></nav>
+  </header>
+  <main id="main" class="guide-wrap">
+    <p class="eyebrow">独立 REA 产品拆解 · Friedrich-arthur · 2026-10-13</p>
+    <details class="guide-toc"><summary>选择你要借鉴的思路</summary><div class="toc">
+<ul>
+<li><a href="#先弄清楚自己究竟知道什么">先弄清楚自己究竟知道什么</a></li>
+<li><a href="#1-熟悉入口降低用户开始委托的成本">1. 熟悉入口，降低用户开始委托的成本</a></li>
+<li><a href="#2-让用户预判一个动作会改变什么">2. 让用户预判一个动作会改变什么</a></li>
+<li><a href="#3-预览开头就是界面的一部分">3. 预览开头就是界面的一部分</a></li>
+<li><a href="#4-前台极简保留完成任务需要的深度">4. 前台极简，保留完成任务需要的深度</a></li>
+<li><a href="#5-断开访问删除数据与撤销行动分别交代">5. 断开访问、删除数据与撤销行动分别交代</a></li>
+<li><a href="#6-把注意力用在用户还能改变的后果上">6. 把注意力用在用户还能改变的后果上</a></li>
+<li><a href="#7-目标包括结果限制与完成证据">7. 目标包括结果、限制与完成证据</a></li>
+<li><a href="#8-美感要帮助理解也要经得起失败与恢复">8. 美感要帮助理解，也要经得起失败与恢复</a></li>
+<li><a href="#拿一张自己的页面开始借鉴">拿一张自己的页面开始借鉴</a></li>
+<li><a href="#三个可以立刻动手的练习">三个可以立刻动手的练习</a></li>
+</ul>
+</div>
+</details>
+    <article class="guide-body"><h1 id="从-instinct-借鉴产品设计的八个思路">从 Instinct 借鉴产品设计的八个思路</h1>
+<p>把 AI 的能力变成用户能理解、能预判、能继续处理的结果。你可以借鉴这一方向，改好一条消息、一个结果页或一段权限流程，再用自己的真实任务判断是否值得保留。</p>
+<p>这是独立分析。更新于 2026-10-13。八个思路对应英文深拆中的同名模式，包含公开材料、访谈笔记解释和作者提案。我们没有使用 Instinct 私有服务，未恢复完整访谈逐字稿，也未核验内部实现。</p>
+<h2 id="先弄清楚自己究竟知道什么">先弄清楚自己究竟知道什么</h2>
+<p><a href="https://github.com/morluto/rea">REA，Reverse Engineer Anything</a> 提供从证据解释行为的思路。本方法把它用于公开产品材料。先收集证据，提出可能的机制，再设计能够推翻这个解释的检查。这里不需要安装 REA 工具。</p>
+<p>以下三类材料的证明范围不同。</p>
+<ul>
+<li>公开声明。官网或政策确实写了什么，能证明产品如何描述自己。它不能证明运行效果。</li>
+<li>笔记解释。访谈笔记提出某种观点。公开章节确认讨论了该话题，但完整逐字稿没有核对。</li>
+<li>设计提案。作者为你的产品提出的规则、界面或验证方式。它需要自己的效果证据。</li>
+</ul>
+<p>做借鉴时，把证据与推断放在同一张设计卡上。以下每个思路都给出可直接动手的迁移方式。</p>
+<h2 id="1-熟悉入口降低用户开始委托的成本">1. 熟悉入口，降低用户开始委托的成本</h2>
+<p><a href="https://instinct.com/">Instinct 官网</a>把文字与通话描述为联系助理的方式。它也提到手机和电脑。这是公开声明。</p>
+<p>可能的机制是让用户先表达目标，省去学习功能目录的负担。迁移到自己的产品时，先复用已有入口，例如收件箱或当前任务卡，让用户补充目标和约束。需要精确编辑或并排比较时，再打开表格、编辑器或结果页。</p>
+<p>借鉴后的主视图可以显示“上海出差方案待完善”，紧邻“会议时间未确认、未预订、未付款”。“补充会议时间”是明确动作，用户不用先理解搜索、规划和执行工具。</p>
+<p>反例是财务专家逐行检查上千条交易。聊天会打断连续选择、批量处理与横向比较。保留表格、过滤和键盘操作，只把助理放在解释或补充任务的入口。</p>
+<p>检查新用户能否开始主任务，再检查专家能否精确修改。两项要分别观察。</p>
+<h2 id="2-让用户预判一个动作会改变什么">2. 让用户预判一个动作会改变什么</h2>
+<p><a href="https://colossus.com/episode/instinct-the-personal-agent/">Colossus 公开访谈目录</a>在 44:43 列出理解 Agent 的话题，在 48:15 列出判断与数据的话题。可预测性优先于能力目录是笔记解释，章节标题不足以证明这个具体主张。</p>
+<p>可能的机制是用户知道行动后果，才敢委托。按钮使用用户的对象和动词，状态贴近实际结果。把“生成回复草稿”与“发送给客户”分开；把“找到航班”与“买到机票”分开。</p>
+<p>主视图要让用户回答三个实际问题。现在完成了什么，点下去会改变什么，失败后如何继续。费用、外部接收人或数据范围会改变判断时，放在动作附近。</p>
+<p>检查用户对主按钮后果的预测与实现是否一致。一个按钮叫“继续”，却会立即付款，就是可预测性缺陷。</p>
+<h2 id="3-预览开头就是界面的一部分">3. 预览开头就是界面的一部分</h2>
+<p>访谈笔记把有用信息放在消息开头与可理解性联系起来。具体字数、比例和消息协议没有核验，不能写成 Instinct 官方标准。</p>
+<p>可能的机制是用户只看通知预览，也会形成判断。先说真实结果和关键缺口，再给必要动作。例如“12份报告中9份已导出并保存，3份失败，全部尚未发布；可重试失败的3份。”</p>
+<p>技术诊断、尝试记录和文件列表可以展开。部分失败紧邻结果，不能藏在“查看日志”里。只有一句话的任务就返回一句话，不附整套设计报告。</p>
+<p>按产品真实预览长度截断消息，再让读者判断是否已发布。若截断后变成“全部完成”，就要调整信息顺序。这里不规定统一字符上限。</p>
+<h2 id="4-前台极简保留完成任务需要的深度">4. 前台极简，保留完成任务需要的深度</h2>
+<p>访谈目录在 1:08:32 列出 Agent 界面的话题。笔记描述按需使用更丰富的产物，但没有证据复原其具体组件。</p>
+<p>可能的机制是首屏承担当前决策，展开内容承担证据、比较和编辑。结果卡可以先给推荐与未确认成本，侧栏再给来源、备选和可编辑草稿。进入详情与返回后保持当前对象和编辑状态。</p>
+<p>“简洁”由用户任务决定。专家对账的金额、币种、来源和异常原因可以全部留在主表，因为这些字段共同完成判断。关键风险、失败、授权和决定性未知也留在主视图。</p>
+<p>检查用户能否找到来源、返回原任务并保留修改。刷新恢复需要产品实际实现，文档中的要求不能当作持久化已通过。</p>
+<h2 id="5-断开访问删除数据与撤销行动分别交代">5. 断开访问、删除数据与撤销行动分别交代</h2>
+<p><a href="https://instinct.com/privacy-policy">官方隐私政策</a>区分断开集成与删除此前收集的数据。<a href="https://instinct.com/terms">服务条款</a>涉及索引数据和外部行动。我们读取的是政策声明，没有测试其删除界面。</p>
+<p>这一差异可以直接迁移成操作回执。主视图说明未来同步是否停止、哪些保存的数据仍在、哪些待处理任务仍存在，以及已经发生的外部影响。</p>
+<p>例如“邮箱同步已停止。已索引邮件仍保留，2封草稿尚未发送，昨天发送的邮件不会因此撤回。”只有实际支持时才提供删除或取消入口。每个操作分别核验结果，不能把“申请删除”写成“已删除”。</p>
+<p>检查用户是否会把断开理解为全部清除。对已订座位、已发送邮件和保留索引分别演练。未发送草稿也不等于已排队的发送任务。</p>
+<h2 id="6-把注意力用在用户还能改变的后果上">6. 把注意力用在用户还能改变的后果上</h2>
+<p>访谈目录在 1:03:59 列出主动性与错误的话题。以下判断规则是作者提案，不是已核验的 Instinct 通知算法。</p>
+<p>只有现在重要、用户能行动、等待有后果时才建议立即打扰。普通比较完成可以留在任务卡；一个名额即将失效且用户还能选择时，可以通知并说明真实到期时间。没有证据的期限不编造。</p>
+<p>已经结束、无法改变的事件仍可能需要说明，但不能伪装成尚有预防机会的提醒。安全告警或法规通知按产品自己的约束处理。</p>
+<p>检查普通更新、紧急但无法行动的消息，以及没有明确截止时间却有真实等待后果的情况。不要拿后台状态变化次数当作有效提醒次数。</p>
+<h2 id="7-目标包括结果限制与完成证据">7. 目标包括结果、限制与完成证据</h2>
+<p>访谈目录在 1:12:35 列出人与 Agent 的目标话题。官网描述可协助日常事务。两者都不能证明无限可靠的自主执行。</p>
+<p>可能的机制是工具执行完并不代表用户目标达成。把预算、时间、接收人和质量要求放进任务定义。保存候选、确认选择、外部提交和结果核验分别表达。</p>
+<p>已有授权覆盖的工作可以继续。新金额、新接收人或不可撤销承诺出现时，呈现具体结果与代价，让用户作出必要决定。</p>
+<p>找到超预算机票是线索，不能标为购买完成。检查失败是否保留已有成果，也检查最终核验有没有看到用户要的真实结果。</p>
+<h2 id="8-美感要帮助理解也要经得起失败与恢复">8. 美感要帮助理解，也要经得起失败与恢复</h2>
+<p>访谈目录在 48:15 涉及判断与数据，在 1:16:27 涉及品牌命名。本 Skill 用视觉平静支持理解，是作者的设计选择。</p>
+<p>先保留既有设计系统。用可读字体、层级、间距、一致按钮和克制动效突出任务。颜色表达状态时配文字，窄屏与键盘操作仍能完成工作。装饰不能盖过失败或费用。</p>
+<p>没有证据复原 Instinct 的字体、配色、圆角或安全架构。原创视觉建议要标清身份。截图好看也不能证明用户信任、功能可用或速度更快。</p>
+<p>检查首屏、长文案、展开、失败、刷新与窄屏。用户理解、接口行为、数据持久化和实际性能分别记录证据。</p>
+<h2 id="拿一张自己的页面开始借鉴">拿一张自己的页面开始借鉴</h2>
+<p>选一个真实设计问题，填完下面这张卡，再让助手生成具体产物。只做一条消息时，省去无关项目。</p>
+<pre><code class="language-text">用 $instinct-design 改进这个任务。
+用户是谁、要完成什么：
+当前页面或消息、已知真实状态：
+希望借鉴的思路、支持它的公开材料：
+材料不能证明什么：
+在本产品里成立的条件，以及会失效的情况：
+需要的交付，例如一句消息、布局或恢复流程：
+验证方式，例如用户能否预测动作后果：
+请保留现有设计系统、关键限制和用户控制。
+</code></pre>
+<p>先看产物，再看解释。把首屏给一个目标用户，让他复述真实状态和下一步。涉及恢复或保存时，再检查实际实现。记录输入、输出、用户后果与发布许可，才成为可公开的真实案例。</p>
+<h2 id="三个可以立刻动手的练习">三个可以立刻动手的练习</h2>
+<p>练习一是部分成功。视频已导出、上传失败、草稿已保存，没有给定截止时间。写一条主消息和一个展开说明。只看开头的人应知道没有发布成功，重试前要处理重复发布风险。</p>
+<p>练习二是断开回执。日历访问已撤回、历史索引仍在、餐厅预订已完成，没有执行删除或取消。给出首屏和可用控制。检查三个结果是否被分别解释，别让用户以为预订也消失了。</p>
+<p>练习三是注意力选择。对普通任务完成、可挽救的失效名额、无害内部变更、已经结束的事件，选择通知、汇总或任务更新。解释等待的后果与用户还能采取的行动。</p>
+<p>练习是作者编写的合成输入。真实效果需要在自己的产品里验证。英文 <a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/skills/instinct-design/references/pattern-lab.md">pattern lab</a> 给出详细练习；<a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/skills/instinct-design/references/sources.md">来源记录</a>保留归因与未核验部分；<a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/skills/instinct-design/references/instinct-teardown.md">英文深拆</a>与本指南覆盖同一组模式。</p></article>
+    <div class="guide-next"><p>带来一个真实问题，让助手输出可以直接评审的设计。</p><a class="primary-link" href="../#install">安装与使用</a><p><a href="https://github.com/Friedrich-arthur/instinct-design/issues/new/choose">提交可公开的设计反馈</a></p></div>
+  </main>
+  <footer class="site-footer wrap"><p>原创内容 © 2026 Friedrich-arthur · <a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE">MIT</a></p><p>独立、非官方 · <a href="../../" lang="en">English overview</a></p></footer>
+</body>
+</html>

@@ -37,13 +37,15 @@ You can also ask it to rewrite a notification, design an agent task flow, or rev
 - Actions have predictable states, visible boundaries, and recovery paths.
 - Visual hierarchy and restraint clarify the user's job.
 
-The core is short. Eight references cover the Instinct teardown, pattern lab, philosophy, messages, interaction, visual craft, review, and source boundaries. The agent reads only the relevant depth for the task.
+The core is short. Nine references cover the English and Chinese Instinct teardown, pattern lab, philosophy, messages, interaction, visual craft, review, and source boundaries. The agent reads only the relevant depth for the task.
 
 ## Learn one useful pattern
 
 The [teardown](skills/instinct-design/references/instinct-teardown.md) applies an evidence-led Reverse Engineer Anything approach to public product materials. Each pattern includes its evidence, mechanism hypothesis, transferable design, boundary, and check. It does not claim access to Instinct's implementation.
 
 Try the [pattern lab](skills/instinct-design/references/pattern-lab.md) on a partly completed task, an account-disconnection receipt, or notification choices. Pick one real product problem and produce an artifact you can assess.
+
+The [Chinese field guide](https://friedrich-arthur.github.io/instinct-design/zh/guide/) includes a borrowing worksheet and an expert-table counterexample. Its source ships inside the installed Skill.
 
 ## See the changes
 
@@ -60,6 +62,8 @@ These are synthetic examples. They do not document customer results or actual In
 The repository includes [five evaluation prompts](evals/cases.json), including authorized continuation and the risk of hiding payment behind minimalism. Read [validation scope](evals/README.md) before interpreting any result. A formatted Skill is not evidence of better user outcomes.
 
 To report a failure, open an issue with a sanitized task, the observed output, and the consequence. To contribute, submit the smallest rule or example that addresses an observable defect. Do not include private customer data, transcripts, credentials, or product screenshots you cannot publish.
+
+Maintainers can rerun the integrity and article checks in the [contribution guide](CONTRIBUTING.md).
 
 The [growth plan](docs/growth-plan.md) links six executable tickets. The [launch kit](docs/launch-kit.md) provides channel-specific lessons and directory listing text. Publication, indexing, real adoption, and Stars are tracked separately.
 

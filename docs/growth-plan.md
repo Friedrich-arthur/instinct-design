@@ -47,3 +47,5 @@ At publication, record the canonical pages, metadata, installation path, release
 Record actual directory availability and voluntary use. Ask for a sanitized input, output, user consequence, and permission to share. Installation, completion of a useful task, repeat use, public endorsement, and Stars each need their own evidence.
 
 Use early feedback to improve one specific pattern or landing message. A suggested first learning goal is five actual design-task reports; it is not a conversion forecast. Review after meaningful feedback rather than creating an unrequested monitoring platform.
+
+The [first dated discovery review](discovery-review.md) records available counters, unavailable adoption data, the pending directory contribution, and one concrete language-access improvement. It keeps external evidence dependencies visible.
