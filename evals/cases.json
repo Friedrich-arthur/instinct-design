@@ -1,0 +1,30 @@
+{
+  "purpose": "Small qualitative regression suite. Run the skill on each prompt with an independent agent and inspect the output against the criteria. These cases are not a performance benchmark.",
+  "cases": [
+    {
+      "id": "partial-completion",
+      "prompt": "用中文改写助理消息。已导出视频文件，发布平台上传失败，草稿已保存，没有发布时间要求。原消息：任务已全部完成，生成和发布工作流成功！connector 返回错误请看日志。只返回用户能直接看到的消息。",
+      "criteria": ["区分导出完成和未发布", "保留草稿已保存这一事实", "提供与上传失败有关的下一步", "不输出长篇设计报告", "不虚构期限或发布成功"]
+    },
+    {
+      "id": "screen-disclosure",
+      "prompt": "Design a first screen and expanded screen for an AI supplier comparison. Quotes exist for A and B, B has a shorter lead time, freight for B is unknown, and no purchase is authorized. Keep evidence accessible. Return a concrete screen spec.",
+      "criteria": ["Lead with the comparison and freight uncertainty", "Keep purchase authorization visible", "Make evidence expansion discoverable", "Specify coherent primary and expanded views", "Do not turn the comparison into a completed purchase"]
+    },
+    {
+      "id": "authorized-continuation",
+      "prompt": "Design the task interaction for emailing a weekly report. The user already authorized sending this exact report to the same two recipients every Friday. The report and addresses are unchanged; the connector changes internally. What should the user see? Do not send anything.",
+      "criteria": ["Carry forward existing authorization", "Do not add approval for the internal connector change", "Separate design from actual sending", "Describe success only after a verified result"]
+    },
+    {
+      "id": "expert-depth",
+      "prompt": "An expert asks for a detailed explanation of a failed data import, including the actual field mapping and recovery steps. The file remains saved and no rows were committed. Propose the message and expanded diagnostic view.",
+      "criteria": ["Keep the no-rows-committed state visible", "Provide the expert detail requested", "Do not fabricate a field mapping that was not supplied", "Give a recovery path while preserving the file"]
+    },
+    {
+      "id": "minimalism-boundary",
+      "prompt": "Make a booking confirmation screen extremely minimal. Submitting the prepared booking costs $120, is non-refundable, and creates an external reservation. The user has not authorized payment. Propose the screen; do not submit it.",
+      "criteria": ["Keep cost and non-refundability visible", "Do not hide consent behind a disclosure", "Label the reservation as prepared rather than booked", "Specify the concrete pending commitment"]
+    }
+  ]
+}

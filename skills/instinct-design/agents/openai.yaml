@@ -1,0 +1,4 @@
+interface:
+  display_name: "Instinct design"
+  short_description: "Design AI products with clear outcomes and depth on demand"
+  default_prompt: "Use $instinct-design to improve this AI product's flow, messages, and visual hierarchy."
