@@ -50,3 +50,9 @@ Review found an undersized example-disclosure target; it was enlarged to 44 pixe
 Both expert-table outputs rejected forcing a dense reconciliation workflow into chat, and both short-copy outputs preserved the partial failure in one sentence. These are useful observed boundaries. They do not turn the Skill into a necessary condition for good design.
 
 The v0.3.0 package adds a full Chinese reference and a static article generated from it. The paired run did not use this new reference. The article and package need separate structural, browser, and editorial checks. Maintainers can rerun the [public check commands](../CONTRIBUTING.md); package checks do not score prose or prove that agents obey it.
+
+## v0.4.0 product optimization as the default job
+
+The default task now applies the philosophy to the user's product, delivers concrete changes, checks the same job, and iterates from actual feedback. Instinct research is optional depth. [The fresh forward task](product-optimization-2026-10-13.md) preserves an actual change to a copy of this project's published homepage, the input, the patch, and the delivery note. It is one observed implementation task, not a superiority comparison or a customer adoption report.
+
+Independent review and browser checks identified and resolved an unsupported bilingual count relationship, a stale capability FAQ, and an awkward narrow-screen headline wrap. The record distinguishes the candidate's static checks from root's final website checks and hypothetical feedback from actual use.

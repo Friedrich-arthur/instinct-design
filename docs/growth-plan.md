@@ -4,7 +4,7 @@ Plan date: 2026-10-13. The GitHub issues are the authority for task state and bl
 
 ## Who should find it
 
-The first audience is people interested in Instinct's AI personal assistant who want concrete product-design lessons. The second is product designers and builders working on assistant replies, agent task states, permissions, and progressive disclosure.
+The primary audience is product designers and builders who want to improve their own screens, flows, specs, and implementations using this design philosophy. People interested in Instinct can use the evidence-backed research to understand its inspiration, then apply the method to their own product.
 
 The promise is a useful artifact: a better message, a comprehensible primary and expanded view, or a permission and recovery flow. The evidence-backed teardown explains the borrowed idea and its limits.
 

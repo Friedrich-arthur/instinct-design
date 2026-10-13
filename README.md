@@ -1,8 +1,8 @@
 # Instinct design
 
-Borrow practical product ideas from Instinct, then design clearer AI assistant messages, interfaces, permissions, and recovery.
+Improve your own product with Instinct-inspired design philosophy. Bring a screen, flow, spec, or code; get a concrete change and a way to check it.
 
-Independent and unaffiliated. Eight evidence-backed patterns, three synthetic practice tasks, and a short Skill that reveals depth when you need it.
+Independent and unaffiliated. Outcome-first language, a focused primary view, depth on demand, predictable actions, and calm craft guide the improvements. Product research stays available when you need the source.
 
 [Try the patterns](https://friedrich-arthur.github.io/instinct-design/) · [中文说明](README.zh-CN.md) · [Instinct teardown](skills/instinct-design/references/instinct-teardown.md) · [Pattern lab](skills/instinct-design/references/pattern-lab.md)
 
@@ -23,12 +23,14 @@ Choose your agent and installation scope in the CLI. The folder uses the [Agent 
 ## Use
 
 ```text
-Use $instinct-design to improve this AI assistant screen.
-Keep the user's task and existing design system.
-Show a concrete first view, expanded details, and failure recovery.
+Use $instinct-design to improve this product.
+Inspect the attached screen, flow, spec, or code and find the friction that most affects the user's job.
+Apply the relevant design principles and deliver the concrete change.
+Keep the existing design system, expert needs, and critical constraints.
+Show the before/after difference and how to verify it. Implement if requested and authorized.
 ```
 
-You can also ask it to rewrite a notification, design an agent task flow, or review a product spec. It follows the language of your request. It preserves existing authorization and keeps cost, risk, uncertainty, and failures visible.
+For another iteration, provide the previous artifact and actual feedback or failure. The Skill checks the same user task and changes what the new evidence justifies. A one-line copy request still gets one usable line. It follows your task's language and preserves authorization, costs, uncertainty, and failure states.
 
 ## What it adds
 
@@ -37,7 +39,13 @@ You can also ask it to rewrite a notification, design an agent task flow, or rev
 - Actions have predictable states, visible boundaries, and recovery paths.
 - Visual hierarchy and restraint clarify the user's job.
 
-The core is short. Nine references cover the English and Chinese Instinct teardown, pattern lab, philosophy, messages, interaction, visual craft, review, and source boundaries. The agent reads only the relevant depth for the task.
+The core is short. Ten references cover product optimization, the English and Chinese Instinct teardown, pattern lab, philosophy, messages, interaction, visual craft, review, and source boundaries. The agent reads only the relevant depth for the task.
+
+## Optimize one actual task
+
+The [optimization guide](skills/instinct-design/references/product-optimization.md) connects an observed obstacle to a design principle, a concrete change, and a check on the same task. It preserves working behavior and useful expert density. The default output is your improved artifact; an Instinct research essay appears only when relevant or requested.
+
+[A worked product iteration](examples/04-product-iteration.md) shows how misleading import status becomes a clearer primary view and recovery, then how actual feedback would guide a narrower second change.
 
 ## Learn one useful pattern
 
@@ -71,6 +79,6 @@ The [growth plan](docs/growth-plan.md) links six executable tickets. The [launch
 
 This is an independent, unaffiliated design method inspired by [Instinct's public product introduction](https://instinct.com/) and interview notes. Outcome-first communication, plain language, and progressive disclosure are the author's synthesis. Visual defaults are original recommendations, not Instinct's official design system. See [sources and boundaries](skills/instinct-design/references/sources.md).
 
-The Skill designs and reviews experiences. It does not install an assistant, connect personal accounts, or implement autonomous actions.
+The Skill guides your agent's product improvements, including authorized code changes. It supplies instructions rather than account integrations or an autonomous assistant service. Actual execution and permissions depend on the host environment.
 
 MIT license for the original material in this repository. Third-party brands and linked material retain their own rights.

@@ -1,4 +1,4 @@
 interface:
   display_name: "Instinct design"
-  short_description: "Borrow Instinct product ideas through evidence and UX patterns"
-  default_prompt: "Use $instinct-design to adapt an evidence-based Instinct pattern to this AI product."
+  short_description: "Improve products with Instinct-inspired design principles"
+  default_prompt: "Use $instinct-design to inspect this product, identify its most consequential user friction, and make a concrete improvement with a proportionate check."

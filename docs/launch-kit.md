@@ -4,7 +4,7 @@ Prepared 2026-10-13. These are publication-ready drafts, not posted content or m
 
 ## Main promise
 
-Learn from Instinct's public product choices, then turn one pattern into a concrete design for your own AI product. The Skill provides an evidence-backed teardown, eight patterns, three synthetic exercises, and task-specific references.
+Improve your own product with Instinct-inspired design philosophy. Bring a screen, flow, spec, or code; get a concrete change and a way to check it, then iterate from real feedback. The evidence-backed teardown explains the inspiration when needed.
 
 Choose one hook per publication:
 

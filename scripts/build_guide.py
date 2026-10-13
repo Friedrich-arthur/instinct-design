@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser(description='Build the Chinese guide from its S
 parser.add_argument('--check', action='store_true', help='Fail if the published article is stale.')
 args = parser.parse_args()
 text = source.read_text(encoding='utf-8')
-text = re.sub(r'\]\((pattern-lab\.md|sources\.md|instinct-teardown\.md)([^)]*)\)',
+text = re.sub(r'\]\((pattern-lab\.md|sources\.md|instinct-teardown\.md|product-optimization\.md)([^)]*)\)',
               r'](https://github.com/Friedrich-arthur/instinct-design/blob/main/skills/instinct-design/references/\1\2)', text)
 renderer = markdown.Markdown(extensions=['toc', 'fenced_code'],
                             extension_configs={'toc': {'slugify': slugify_unicode, 'toc_depth': '2-2'}})

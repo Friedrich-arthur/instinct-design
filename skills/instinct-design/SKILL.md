@@ -1,14 +1,14 @@
 ---
 name: instinct-design
-description: Borrow useful product ideas from Instinct with evidence-based teardown, outcome-first messages, progressive disclosure, calm visual hierarchy, predictable actions, and user control. Use for Instinct design analysis, AI assistant UX, agent task flows, product screens, notifications, or product design specs. Supports existing interfaces and design systems.
+description: "Improve a product using Instinct-inspired design philosophy: outcome-first language, focused primary views, progressive disclosure, predictable actions, and calm craft. Use to diagnose product friction, redesign screens or flows, refine messages, or iterate a product spec or implementation. Supports existing interfaces and design systems."
 license: MIT
 metadata:
-  version: "0.3.0"
+  version: "0.4.0"
 ---
 
 # Instinct design
 
-Make the user understand the outcome, the consequence, and the next useful action before exposing how the system works. This is an independent method inspired by public Instinct material. It is not an official Instinct guide.
+Use this design philosophy to improve the user's own product. Help its users understand the outcome, consequence, and next useful action before exposing how the system works. Instinct research supports the method when needed; a concrete product improvement is the default deliverable. This is an independent method, not an official Instinct guide.
 
 ## Start with the user's job
 
@@ -17,6 +17,14 @@ Use the brief and existing product artifacts. Identify who needs to get what don
 Write in the language requested for the current task. If no output language is specified, use that task's language.
 
 For a copy edit, return usable copy. For a screen or flow, produce a concrete layout or interaction spec. For a review, lead with the highest-impact defect and its fix. Add detail only when it helps that task.
+
+## Optimize and iterate the product
+
+For a substantial product optimization or iteration task, read [Product optimization](references/product-optimization.md). Inspect the supplied screen, flow, copy, spec, or code. Connect observed friction to the relevant principles below and choose the smallest useful change. Label a suspected problem as a hypothesis when the artifact cannot establish it.
+
+Deliver the revised artifact or make the authorized change in the product. Explain the important before/after difference, its user consequence, and how to check it. Preserve working behavior, the user's domain, and expert information needs. Don't replace optimization with an Instinct essay, a generic checklist, or a redesign unrelated to the problem.
+
+For another iteration, use the previous change and actual feedback or failure as the starting point. Check the same user task, keep improvements supported by evidence, and revisit assumptions when the result disappoints. Stop at the requested scope; don't invent user feedback or keep redesigning without a reason.
 
 ## Rules that change the design
 
@@ -34,6 +42,7 @@ Read only the reference needed for the current task. Do not load this whole tabl
 
 | Task | Reference |
 | --- | --- |
+| Improving or iterating the user's own product | [Product optimization](references/product-optimization.md) |
 | Learning from Instinct or reverse engineering a product idea | [Evidence-based Instinct teardown](references/instinct-teardown.md) |
 | Learning the patterns in Chinese, with a borrowing worksheet and exercises | [中文深拆与实战指南](references/instinct-teardown.zh-CN.md) |
 | Trying a pattern on a real message, permission flow, or notification | [Pattern lab](references/pattern-lab.md) |

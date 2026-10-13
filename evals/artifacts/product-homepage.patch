@@ -1,0 +1,65 @@
+--- a/docs/zh/index.html
++++ b/docs/zh/index.html
+@@ -6,2 +6,2 @@
+-  <title>Instinct 产品设计 Skill | 有证据的 AI 产品设计借鉴</title>
+-  <meta name="description" content="从 Instinct 体验与公开证据提炼 AI 产品设计方法。独立开源 Skill，包含 8 个设计模式、原创建议案例、REA 深度拆解和可操作练习。">
++  <title>Instinct 产品设计 Skill | 优化你的产品，按反馈迭代</title>
++  <meta name="description" content="借鉴 Instinct 设计哲学，优化你的页面、流程与文案。带来现有产品和用户任务，得到可用改稿或具体改动，再用真实反馈继续迭代。独立开源 Skill。">
+@@ -19 +19 @@
+-  <meta property="og:description" content="从 Instinct 学设计，有证据、有边界、有可用方法。独立开源 Skill，8 个模式与具体练习。">
++  <meta property="og:description" content="带来页面、流程或文案，得到具体改稿与检查方法，再根据真实反馈继续迭代。独立开源产品设计 Skill。">
+@@ -26 +26 @@
+-  <meta name="twitter:description" content="独立开源产品设计 Skill。从 Instinct 提炼 8 个设计模式，转化为真实产品可用的设计决策。">
++  <meta name="twitter:description" content="借鉴 Instinct 设计哲学优化自己的产品：提供现有页面与用户任务，得到具体改动，用反馈推进下一轮。">
+@@ -37,2 +37,2 @@
+-        "name": "Instinct 产品设计 Skill | 有证据的 AI 产品设计借鉴",
+-        "description": "从 Instinct 公开资料提炼的独立开源产品设计方法。",
++        "name": "Instinct 产品设计 Skill | 优化你的产品，按反馈迭代",
++        "description": "借鉴 Instinct 设计哲学，优化现有产品并根据真实反馈继续迭代的独立开源 Skill。",
+@@ -75,2 +75,2 @@
+-        <p class="hero-lead">从 Instinct 学设计，有证据，也有边界。</p>
+-        <p class="hero-description">把对个人 Agent 的兴趣，转成你自己产品里可用的设计决策。借鉴具体的消息结构、界面取舍和验证方法。</p>
++        <p class="hero-lead">借鉴 Instinct 设计哲学，改进你自己的产品。</p>
++        <p class="hero-description">带来现有页面、流程或文案，说明用户要完成什么。得到可用改稿、具体界面方案，或授权范围内的代码改动；再带回真实反馈，继续下一轮。</p>
+@@ -96,2 +96,2 @@
+-        <p class="section-label">一种可落地的学习方法</p>
+-        <p>观察体验，解释机制，借鉴模式，再用真实任务验证。</p>
++        <p class="section-label">从现有产品开始</p>
++        <p>提供现状与任务 → 得到具体改动 → 检查同一任务 → 用反馈迭代。</p>
+@@ -118 +118 @@
+-        <div class="section-heading"><p class="section-label">02 / 借鉴背后的机制</p><h2 id="examples-title">少一点解释负担，<br>多一点可用决策。</h2><p>三个原创建议展示模式如何改变设计。均为合成案例，不是官方截图，也不代表已实测的客户效果。</p></div>
++        <div class="section-heading"><p class="section-label">02 / 输入与产物</p><h2 id="examples-title">带来一个问题，<br>拿走可用的改进。</h2><p>先选一个要改善的任务，保留已有设计系统。下面是三种输入与对应产物的合成示例，不代表已实测的客户效果。</p></div>
+@@ -120,3 +120,3 @@
+-          <article class="case-card"><p class="case-category">一条消息</p><h3>如实表达部分成功。</h3><p class="before"><span>改进前</span> “工作流完成。上传异常请查看日志。”</p><p class="after"><span>改进后</span> “视频已导出，帖子仍是草稿。可以重试已保存的上传任务。”</p><p class="case-lesson">用户只读开头，就知道真实结果与待处理动作。</p></article>
+-          <article class="case-card"><p class="case-category">一个结果页面</p><h3>让决策容易被检查。</h3><p class="before"><span>改进前</span> 长聊天混合推荐、原始消息和全部备选方案。</p><p class="after"><span>改进后</span> 先展示推荐和未确认成本。证据可以展开，草稿可以原地编辑。</p><p class="case-lesson">减少视觉负担，同时保留会改变决策的信息。</p></article>
+-          <article class="case-card"><p class="case-category">一个 Agent 任务</p><h3>行动前说清边界。</h3><p class="before"><span>改进前</span> “交给我”没有说明 Agent 可以花多少钱、发什么内容。</p><p class="after"><span>改进后</span> 明确任务与预算，先把结果准备好。只有行动超出范围时才请求确认。</p><p class="case-lesson">用户可以预判外部影响，任务卡住时也有恢复路径。</p></article>
++          <article class="case-card"><p class="case-category">一条消息</p><h3>如实表达部分成功。</h3><p class="before"><span>带来什么</span> 现有提示：“工作流完成。上传异常请查看日志。”以及真实状态：导出成功，上传失败。</p><p class="after"><span>得到什么</span> 可直接采用的文案：“视频已导出，帖子仍是草稿。可以重试已保存的上传任务。”</p><p class="case-lesson">检查：只读开头，能否说清哪些已完成、下一步做什么？若仍误解，带回误读的原话再改。</p></article>
++          <article class="case-card"><p class="case-category">一个结果页面</p><h3>让决策容易被检查。</h3><p class="before"><span>带来什么</span> 结果页截图或 HTML，以及用户要完成的决策：比较方案并选择一个。</p><p class="after"><span>得到什么</span> 首屏与详情布局：推荐和未确认成本保持可见，证据按需展开；提供方案，或在授权范围内修改现有页面。</p><p class="case-lesson">检查：能否找到推荐与成本，并从详情回到原位置？带回卡住的位置，下一轮修复具体障碍。</p></article>
++          <article class="case-card"><p class="case-category">一个 Agent 任务</p><h3>行动前说清边界。</h3><p class="before"><span>带来什么</span> 现有任务流程、允许的行动与预算，以及失败时需要保留的内容。</p><p class="after"><span>得到什么</span> 状态、权限边界与失败恢复方案：区分草稿和已执行，说明越界确认与重试入口。</p><p class="case-lesson">检查：用户能否预判外部影响，并在失败后继续任务？设计方案仍需实际实现与运行验证。</p></article>
+@@ -145 +145 @@
+-        <div><p class="section-label">04 / 用起来</p><h2 id="install-title">带来真实页面，<br>得到具体设计。</h2><p>安装到支持 Agent Skills 的助手中。要求它给出首屏、展开详情，以及失败后的恢复方案。</p></div>
++        <div><p class="section-label">04 / 用起来</p><h2 id="install-title">带来真实页面，<br>得到具体设计。</h2><p>安装到支持 Agent Skills 的助手中，附上现有截图、文案或代码，说明用户任务与保留条件。按需要请求改稿、界面方案或实际代码修改。</p></div>
+@@ -151,4 +151,13 @@
+-          <p class="code-label prompt-label">然后试试</p>
+-          <pre class="prompt"><code>用 $instinct-design 改进这个 AI 助手页面。
+-保留用户任务和已有设计系统。
+-给出首屏、展开详情与失败恢复方案。</code></pre>
++          <p class="code-label prompt-label">第一轮：改一个真实页面</p>
++          <pre class="prompt"><code>用 $instinct-design 优化附上的结果页 HTML。
++用户要比较方案并选择一个，但推荐与成本混在长说明中。
++保留现有设计系统、接口与交互，只修改这个页面。
++直接修改 HTML：先展示推荐与未确认成本，证据按需展开。
++检查同一任务，说明实际检查结果与尚未验证的内容。</code></pre>
++          <p class="code-label prompt-label">下一轮：带回具体反馈</p>
++          <pre class="prompt"><code>继续用 $instinct-design 改进上一轮页面。
++附上当前版本、上轮改动和实际试用反馈：
++用户展开证据后，找不到返回推荐的位置。
++保留已验证有效的改动，只修复这个障碍。
++用同一任务复查，区分已检查、假设与尚未验证。</code></pre>
++          <p class="fine-print">下一轮反馈可以是误读的原话、卡住的步骤或失败结果；没有实测反馈时，先说明假设，不把建议当成效果已提升。</p>
+@@ -163 +172 @@
+-        <details><summary>Instinct design Skill 是什么？</summary><p>它是独立开源的 AI 产品设计与评审方法。核心指令简短，消息、交互、美感和产品拆解等参考资料按任务需要读取。</p></details>
++        <details><summary>Instinct design Skill 是什么？</summary><p>它是一套借鉴 Instinct 设计哲学的独立开源产品优化方法。助手读取你提供的页面、流程、文案或代码，按请求交付改稿、设计方案或具体代码改动；相关参考资料按需读取。</p></details>
+@@ -166 +175 @@
+-        <details><summary>Skill 会接入账户或执行 Agent 任务吗？</summary><p>不会。它用于设计与评审产物，不连接个人账户，不发送消息、不付款，也不实现自主执行。</p></details>
++        <details><summary>Skill 会接入账户或执行 Agent 任务吗？</summary><p>Skill 本身不接入账户或提供任务执行服务。运行它的助手可以在已有工具与授权范围内修改你的产品代码；账户连接、发布或付款仍取决于助手能力与实际授权。设计方案不证明这些功能已经实现。</p></details>

@@ -1,8 +1,8 @@
 # Instinct design
 
-把 Instinct 的产品思路变成自己产品里的具体设计：消息、界面、权限和失败恢复都让人看得懂。
+用 Instinct 启发的产品设计哲学，优化你自己的产品。带来页面、流程、需求文档或代码，得到具体改进和可检查的结果。
 
-独立、非官方。8 个有证据边界的模式，3 个合成练习，核心保持短小，能力按需展开。
+默认从你的用户任务出发，找问题、做改进、验证，再根据真实反馈迭代。结论先行、说人话、前台极简、深度按需展开是设计依据，Instinct 研究资料按需读取。
 
 [试用中文入口](https://friedrich-arthur.github.io/instinct-design/zh/) · [English](README.md) · [中文深拆与实战指南](https://friedrich-arthur.github.io/instinct-design/zh/guide/) · [设计文档](docs/design.zh-CN.md)
 
@@ -23,12 +23,14 @@ npx skills add Friedrich-arthur/instinct-design --skill instinct-design
 ## 使用
 
 ```text
-用 $instinct-design 改善这个 AI 助理界面。
-沿用当前用户任务和设计系统。
-先给可直接评审的首屏，再说明展开层和失败恢复。
+用 $instinct-design 优化这个产品。
+检查我提供的页面、流程、需求文档或代码，找出最影响用户任务的问题。
+用相关产品设计原则改好它，交付具体改稿或实现。
+保留现有设计系统、专家信息需求和关键限制。
+说明改前改后的差别与验证方法；需要且已授权实现时直接修改。
 ```
 
-它也适用于消息改写、通知、任务流程、产品设计文档和体验评审。英文指令方便分享，输出沿用用户语言。
+下一轮带上前一版产物和真实反馈或失败，它会围绕同一个任务继续修正。只改一句消息时，直接给可用消息；设计界面时给具体布局，需要实现时修改实际产品。输出沿用当前任务语言。
 
 ## 设计方法
 
@@ -40,7 +42,13 @@ npx skills add Friedrich-arthur/instinct-design --skill instinct-design
 - 少打扰，只在用户现在需要行动且等待有后果时提醒。
 - 美感服务于理解，层级、留白、字体与动效保持一致。
 
-核心指令保持短小；9 个参考覆盖中英文 Instinct 深拆、练习、产品理念、消息、交互、美感、评审与来源，按需读取。
+核心指令保持短小；10 个参考覆盖产品优化、中英文 Instinct 深拆、练习、产品理念、消息、交互、美感、评审与来源，按需读取。
+
+## 先改一个真实任务
+
+[优化方法](skills/instinct-design/references/product-optimization.md)把实际问题与适用原则、具体改动、同一任务的检查连起来。保留有效行为与专家需要的信息密度。默认交付你的产品改进，研究拆解在需要时才展开。
+
+[完整迭代示例](examples/04-product-iteration.md)展示导入页如何改正误导状态、明确恢复动作，再用反馈决定下一次小修正。
 
 ## 从兴趣走到具体借鉴
 
@@ -72,4 +80,4 @@ npx skills add Friedrich-arthur/instinct-design --skill instinct-design
 
 独立、非官方。受 [Instinct 公开产品介绍](https://instinct.com/) 和访谈笔记启发。“结论先行、说人话、前台极简、后台按需展开”是作者提炼，美感建议是原创应用，均不冒充 Instinct 官方设计规范。详情见 [来源说明](skills/instinct-design/references/sources.md)。
 
-本 Skill 提供设计和评审方法，真实记忆、账号连接、持久化和自动行动需要产品另行实现与验证。仓库原创材料采用 MIT；第三方品牌和链接材料保留原权利。
+本 Skill 指导助手优化产品，也可修改已授权代码。实际执行与权限取决于宿主环境，业务记忆、账号集成、持久化和自主行动仍需实现与验证。仓库原创材料采用 MIT；第三方品牌和链接材料保留原权利。
