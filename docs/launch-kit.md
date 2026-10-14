@@ -1,6 +1,6 @@
 # A useful lesson before the installation link
 
-Prepared 2026-10-13. These are publication-ready drafts, not posted content or measured traffic. Replace a draft only with an actual result when a public case becomes available. Keep the independent, unaffiliated status visible.
+Prepared 2026-10-14. These are drafts for publication. Preparing this kit does not establish posted content or measured traffic. Replace a draft with an actual result when a public case becomes available. Keep the independent, unaffiliated status visible.
 
 ## Main promise
 
@@ -16,14 +16,14 @@ These hooks teach authored design applications. They do not demonstrate the priv
 
 ## X: a short English post
 
-> A useful AI message starts with the real result.
+> "Video exported" does not mean "post published."
 >
-> "Video exported; post not published. Your draft is saved."
+> Improve your own product with Instinct-inspired design principles. Bring a screen, flow, spec, or code; get a concrete change and a check.
 >
-> An independent Instinct-inspired design Skill: 8 patterns, 3 exercises. Try one on your product:
-> https://friedrich-arthur.github.io/instinct-design/?utm_source=x&utm_medium=social&utm_campaign=instinct_v02
+> Independent open-source Skill.
+> https://friedrich-arthur.github.io/instinct-design/?utm_source=x&utm_medium=social&utm_campaign=instinct_product_optimization
 
-Use the original English share card. Check the actual platform character limit when posting; shorten the introduction before removing the real state or attribution.
+The post is 244 characters when its URL counts as 23 characters. Check the actual platform counter when posting. Use the English product-optimization share card.
 
 ## LinkedIn: a product-design lesson
 
@@ -31,31 +31,29 @@ Use the original English share card. Check the actual platform character limit w
 >
 > The public privacy policy distinguishes disconnecting an integration from deleting previously collected data. That becomes a practical design exercise: show what stopped, what remains, and which effects already happened.
 >
-> I packaged this and seven other patterns into an independent AI product-design Skill. The teardown separates official claims, interview-note interpretations, and our own design proposals.
+> I packaged these design principles into an independent Skill that improves your own screens, flows, specs, and code. Bring one artifact, get a concrete change, and check the same user task. The source-backed research explains the inspiration when needed.
 >
-> It includes a small attention exercise and copyable prompts. Try one flow and share where the pattern fails.
+> Try one flow and share the actual result or where the method fails.
 >
-> https://friedrich-arthur.github.io/instinct-design/?utm_source=linkedin&utm_medium=social&utm_campaign=instinct_v02
+> https://friedrich-arthur.github.io/instinct-design/?utm_source=linkedin&utm_medium=social&utm_campaign=instinct_product_optimization
 
-The source for the policy lesson is https://instinct.com/privacy-policy. Keep that link available when sharing the claim.
+The source for the policy lesson is [Instinct's privacy policy](https://instinct.com/privacy-policy). Keep that link available when sharing the claim.
 
 ## 中文产品社区：一个完整但短的帖子
 
-标题建议：**把 Instinct 的产品思路变成可直接用的设计 Skill**
+标题建议：**用 Instinct 启发的设计哲学，改好自己的产品**
 
-> 我想从 Instinct 学的是具体设计选择：用户怎么开始任务，怎样看懂结果，何时展开能力，失败和授权怎样保持可控。
+> "视频已导出"不等于"帖子已发布"。一条状态消息若把两者说成全部完成，用户就可能错过仍需处理的上传。
 >
-> 一个很具体的例子是“断开连接”：官方隐私政策说明，它不会自动删除此前采集的数据。迁移到自己的产品，就要分别告诉用户“未来读取停止了”“已保存数据还在”“外部动作是否已经发生”。
+> 这个独立、非官方 Skill 从你提供的页面、流程、需求文档或代码出发，借鉴结论先行、说人话、按需展开和可预测行动，交付具体改稿或已授权实现，再检查同一个用户任务。
 >
-> 我把公开材料和已有访谈笔记整理成了一个独立、非官方的 Skill。用 REA 的证据思路区分公开主张、机制推断和设计建议，做了 8 个模式、3 个可复制练习。
+> 已有合成案例和独立代理试用；尚未证明稳定提效。可以先改一条消息或一个流程，再带回真实结果和失败。
 >
-> 可以拿一条助理消息、一个授权流程或一组通知试试看。现在已有定性试用，还没有证据证明稳定提效。
->
-> 中文入口：https://friedrich-arthur.github.io/instinct-design/zh/?utm_source=product_community&utm_medium=community&utm_campaign=instinct_v02
+> 中文入口：https://friedrich-arthur.github.io/instinct-design/zh/?utm_source=product_community&utm_medium=community&utm_campaign=instinct_product_optimization
 >
 > 安装：`npx skills add Friedrich-arthur/instinct-design --skill instinct-design`
 >
-> 欢迎带一个脱敏的失败案例：输入是什么，输出哪里不好，用户会因此做错什么。我会据此做小修正。
+> 用过后，提交脱敏任务与实际结果：https://github.com/Friedrich-arthur/instinct-design/issues/new/choose
 
 Use the community's actual topic and self-promotion rules. A suitable discussion begins with the product lesson and supports replies with evidence. Do not copy the same promotional post into many unrelated discussions.
 
@@ -82,7 +80,7 @@ Use the community's actual topic and self-promotion rules. A suitable discussion
 ## Directory listing text
 
 ```text
-Instinct design — An independent AI product-design Skill with an evidence-backed Instinct teardown, outcome-first messages, progressive disclosure, and practical permission and notification exercises.
+Instinct design — An independent Agent Skill that turns a screen, flow, spec, or code into a concrete product improvement with a proportionate check, using Instinct-inspired design principles.
 Repository: https://github.com/Friedrich-arthur/instinct-design
 Website: https://friedrich-arthur.github.io/instinct-design/
 License: MIT

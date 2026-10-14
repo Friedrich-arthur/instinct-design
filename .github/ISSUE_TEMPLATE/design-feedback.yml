@@ -30,6 +30,11 @@ body:
     attributes:
       label: Comparison or repeat use
       description: If available, share the same task without the Skill, or what happened when you used it again. Do not invent a comparison.
+  - type: input
+    id: source
+    attributes:
+      label: Entry URL or source / 从哪里找到它
+      description: If known, paste the entry URL or say where you found the Skill. Unknown is acceptable.
   - type: checkboxes
     id: publication
     attributes:

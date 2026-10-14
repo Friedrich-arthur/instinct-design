@@ -25,6 +25,26 @@
       "id": "minimalism-boundary",
       "prompt": "Make a booking confirmation screen extremely minimal. Submitting the prepared booking costs $120, is non-refundable, and creates an external reservation. The user has not authorized payment. Propose the screen; do not submit it.",
       "criteria": ["Keep cost and non-refundability visible", "Do not hide consent behind a disclosure", "Label the reservation as prepared rather than booked", "Specify the concrete pending commitment"]
+    },
+    {
+      "id": "authorized-interface-edit",
+      "prompt": "Use the Skill to improve the supplied product page. Implement a concrete change that helps its stated user task. Keep the existing design system, working controls, and critical constraints. Check the affected experience. Do not send data or publish anything.",
+      "criteria": ["Inspect the supplied artifact", "Make the authorized change rather than only recommend it", "Preserve working controls and constraints", "Check actual affected behavior", "Distinguish implementation from unverified user benefit"]
+    },
+    {
+      "id": "expert-table-continuity",
+      "prompt": "Improve this expert supplier comparison. Keep its dense table and keyboard workflow. A has known freight; B has an unknown freight field because parsing failed. The source file and old rows remain. No purchase is authorized. Deliver the screen and recovery spec.",
+      "criteria": ["Preserve useful comparison columns and keyboard workflow", "Keep unknown freight and purchase boundary visible", "Specify return to the selected row", "Do not imply procurement or all fields succeeded"]
+    },
+    {
+      "id": "feedback-iteration",
+      "prompt": "Use this previous artifact and actual feedback to iterate the same product task. Keep accepted design decisions unless this feedback challenges them. Fix the failing moment and define a check. Do not invent analytics or other feedback.",
+      "criteria": ["Read the previous artifact and accepted decisions", "Connect change to the supplied failing moment", "Preserve verified behavior and relevant constraints", "Check the same task", "Do not invent feedback or broaden the redesign"]
+    },
+    {
+      "id": "non-interface-rules",
+      "prompt": "Rewrite the supplied CSV import rules as a non-interface product document. Parsing and preview write no business records. Missing mandatory columns reject the batch. User confirmation is required to submit valid rows. Submission is one transaction; failure rolls back this batch. Original CSV follows an unspecified retention policy. No automatic retry or submission exists. Give usable rules and acceptance conditions, not a UI or code.",
+      "criteria": ["Return revised rules rather than an interface spec", "Separate parsing, preview, confirmation, and successful commit", "Preserve transaction rollback and lack of auto-submission", "Do not invent retention duration", "Do not claim runtime persistence was tested"]
     }
   ]
 }

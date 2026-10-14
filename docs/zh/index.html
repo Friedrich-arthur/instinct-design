@@ -37,7 +37,7 @@
         "name": "Instinct 产品设计 Skill | 用设计哲学优化你的产品",
         "description": "用 Instinct 启发的产品设计哲学优化自己的产品，交付具体改进并验证。",
         "inLanguage": "zh-CN",
-        "dateModified": "2026-10-13",
+        "dateModified": "2026-10-14",
         "mainEntity": { "@id": "https://friedrich-arthur.github.io/instinct-design/#work" }
       },
       {
@@ -49,7 +49,7 @@
         "creator": { "@type": "Person", "name": "Friedrich-arthur", "url": "https://github.com/Friedrich-arthur" },
         "license": "https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE",
         "inLanguage": ["en", "zh-CN"],
-        "dateModified": "2026-10-13",
+        "dateModified": "2026-10-14",
         "isBasedOn": ["https://instinct.com/", "https://colossus.com/episode/instinct-the-personal-agent/"],
         "mainEntityOfPage": { "@id": "https://friedrich-arthur.github.io/instinct-design/zh/#page" }
       }
@@ -145,15 +145,19 @@
         <div><p class="section-label">04 / 用起来</p><h2 id="install-title">带来你的产品，<br>得到具体优化。</h2><p>安装到支持 Agent Skills 的助手中。提供现有产物与用户任务，要求可用改进、改前改后差别和检查方法。</p></div>
         <div class="install-panel">
           <p class="code-label">通过 Skills CLI 安装</p>
-          <div class="command-row"><pre><code id="install-command">npx skills add Friedrich-arthur/instinct-design --skill instinct-design</code></pre><button class="copy-button" type="button" hidden data-copy="install-command" data-copied="已复制" data-failed="请选择命令并手动复制。" data-success="安装命令已复制。">复制</button></div>
-          <p class="copy-status" role="status" aria-live="polite" data-copy-status></p>
+          <div class="command-row"><pre><code id="install-command">npx skills add Friedrich-arthur/instinct-design --skill instinct-design</code></pre><button class="copy-button" type="button" hidden data-copy="install-command" aria-describedby="install-copy-status" data-copied="已复制" data-failed="请选择命令并手动复制。" data-success="安装命令已复制。">复制</button></div>
+          <p class="copy-status" id="install-copy-status" role="status" aria-live="polite" data-copy-status></p>
           <p class="fine-print">在 CLI 中选择助手与安装范围。执行第三方安装命令前，先检查仓库内容。</p>
           <p class="code-label prompt-label">然后试试</p>
-          <pre class="prompt"><code>用 $instinct-design 优化这个产品。
+          <pre class="prompt"><code id="product-prompt">用 $instinct-design 优化这个产品。
 检查页面、流程、文档或代码，交付具体改进。
 保留有效行为、设计系统与关键限制。
 说明改前改后差别，验证同一个用户任务。
 下一轮根据上一版产物和真实反馈继续修正。</code></pre>
+          <button class="copy-button" type="button" hidden data-copy="product-prompt" aria-describedby="product-copy-status" data-copied="已复制" data-failed="请选择请求并手动复制。" data-success="使用请求已复制。">复制使用请求</button>
+          <p class="copy-status" id="product-copy-status" role="status" aria-live="polite" data-copy-status></p>
+          <p><a class="text-link" href="https://github.com/Friedrich-arthur/instinct-design/issues/new/choose">用过后，提交任务与实际结果 <span aria-hidden="true">↗</span></a></p>
+          <p><a class="text-link" href="https://github.com/Friedrich-arthur/instinct-design/blob/main/examples/04-product-iteration.md">查看完整产品迭代示例 <span aria-hidden="true">↗</span></a></p>
           <a class="text-link" href="https://github.com/Friedrich-arthur/instinct-design">在 GitHub 查看安装说明与案例 <span aria-hidden="true">↗</span></a>
         </div>
       </div>
@@ -179,6 +183,6 @@
       </div>
     </section>
   </main>
-  <footer class="site-footer wrap"><p>Instinct design · 原创内容 © 2026 Friedrich-arthur · <a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE">MIT</a></p><p>更新于 2026 年 10 月 13 日 · <a href="../" lang="en" hreflang="en">English</a></p></footer>
+  <footer class="site-footer wrap"><p>Instinct design · 原创内容 © 2026 Friedrich-arthur · <a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE">MIT</a></p><p>更新于 2026 年 10 月 14 日 · <a href="../" lang="en" hreflang="en">English</a></p></footer>
 </body>
 </html>

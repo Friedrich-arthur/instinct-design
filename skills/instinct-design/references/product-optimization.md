@@ -39,7 +39,9 @@ For a one-line copy edit, give the line. The surrounding method need not appear 
 
 ## Use evidence for the next iteration
 
-Check the revised artifact against the original job and constraints. A visual change needs the applicable narrow-layout and interaction check. A real saved-state change needs a real reload or restart. A text-only spec needs clear acceptance behavior, not a claim that persistence works.
+Check the revised artifact against the original job and constraints. Choose content ranges that could change this task, such as zero, one, or many records, a long known label, or partial completion. Use actual data when available and label assumed ranges. A visual change needs the applicable narrow-layout and interaction check. A real saved-state change needs a real reload or restart. A text-only spec needs clear acceptance behavior, not a claim that persistence works.
+
+Before another iteration, read the accepted decisions in the existing product spec or prior delivery. Preserve the user task, useful density, constraints, and verified behavior unless new evidence challenges them. For a substantial change that needs a handoff, record the accepted choice, its reason, what was checked, and the remaining question in the existing project document. Read it back after writing. Do not create a new memory system or an extra document for a small copy edit.
 
 When feedback arrives, record the actual failing moment and revisit the relevant change. For example, if a reader still interprets “prepared” as “sent,” revise that state distinction and check it again. If the expanded source view loses the selected row, repair continuity rather than restyling the whole table.
 

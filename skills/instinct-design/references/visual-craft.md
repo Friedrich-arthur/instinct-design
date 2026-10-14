@@ -8,6 +8,8 @@ Use a clear reading order. Put the outcome or current state first, the consequen
 
 Establish hierarchy with spacing, type size, weight, and grouping before adding decoration. Reserve the strongest emphasis for the current result or action. Avoid a page where every panel looks equally urgent.
 
+For a substantial visual change, explain in one sentence how its main visual or structural choice helps this user's action. Expert comparison may need a dense, familiar table; reading may need a clear argument; marketing may need a credible product example. Calm craft is a way to clarify the task, not a fixed neutral style or a reason to replace an effective design system.
+
 ## A restrained starting palette
 
 For a new neutral interface, start with a warm or cool light background, high-contrast text, subtle borders, and one accent color. Use color to identify action and meaningful status. Pair status color with words or icons so color is not the only signal.

@@ -44,6 +44,8 @@ Publish useful, readable static HTML with appropriate titles, descriptions, cano
 
 At publication, record the canonical pages, metadata, installation path, release, and repository state. Later, with authorized accounts, check indexing and search impressions. The [current Google report](https://support.google.com/webmasters/answer/16984139) covers particular generative AI displays; its absence is not a zero across all AI products.
 
+With an authorized Search Console property, verify index status and the current inclusion setting for Search generative AI features before interpreting that report. No Search Console property or report has been verified for this project.
+
 Record actual directory availability and voluntary use. Ask for a sanitized input, output, user consequence, and permission to share. Installation, completion of a useful task, repeat use, public endorsement, and Stars each need their own evidence.
 
 Use early feedback to improve one specific pattern or landing message. A suggested first learning goal is five actual design-task reports; it is not a conversion forecast. Review after meaningful feedback rather than creating an unrequested monitoring platform.

@@ -3,7 +3,7 @@ name: instinct-design
 description: "Improve a product using Instinct-inspired design philosophy: outcome-first language, focused primary views, progressive disclosure, predictable actions, and calm craft. Use to diagnose product friction, redesign screens or flows, refine messages, or iterate a product spec or implementation. Supports existing interfaces and design systems."
 license: MIT
 metadata:
-  version: "0.4.0"
+  version: "0.5.0"
 ---
 
 # Instinct design
@@ -57,6 +57,6 @@ Read only the reference needed for the current task. Do not load this whole tabl
 
 For product borrowing, distinguish public claims, observations, inferred mechanisms, and your design proposal. Pair the chosen pattern with its conditions, failure case, and a check. Never infer internal architecture or successful runtime behavior from a product page. Use a relevant pattern rather than reproducing this whole framework for a small task.
 
-Show the proposed result first. Explain the consequential design choice briefly. For a spec, define the primary view, the expanded view, and the relevant failure or recovery state. For an implementation, inspect the actual experience and report what was verified. A written spec does not prove that memory, permissions, automation, persistence, or task execution works.
+Show the proposed result first. Explain the consequential design choice briefly. For an interface spec, define the primary view, useful expanded detail, and relevant failure or recovery behavior. For a non-interface document, use the structure its reader needs. For an implementation, inspect the actual experience and report what was verified. A written spec does not prove that memory, permissions, automation, persistence, or task execution works.
 
 Check that a user who reads only the opening still knows the real state and the next action. Stop when the requested work and proportionate checks are complete.

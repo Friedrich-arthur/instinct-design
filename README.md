@@ -32,6 +32,12 @@ Show the before/after difference and how to verify it. Implement if requested an
 
 For another iteration, provide the previous artifact and actual feedback or failure. The Skill checks the same user task and changes what the new evidence justifies. A one-line copy request still gets one usable line. It follows your task's language and preserves authorization, costs, uncertainty, and failure states.
 
+Start with the material you already have:
+
+- **Fix a page.** “Use $instinct-design on this page. Find the obstacle that most affects [user task] and deliver the smallest useful change.”
+- **Improve a flow.** “Use $instinct-design on this flow. Make the result, next action, and failure recovery clear. Preserve the existing design system.”
+- **Iterate from feedback.** “Use $instinct-design with this previous artifact and actual feedback. Keep accepted decisions, fix the failing moment, and check the same task.”
+
 ## What it adds
 
 - Messages start with the actual outcome, its consequence, and the next useful action.
@@ -67,11 +73,13 @@ These are synthetic examples. They do not document customer results or actual In
 
 ## Validation and contributions
 
-The repository includes [five evaluation prompts](evals/cases.json), including authorized continuation and the risk of hiding payment behind minimalism. Read [validation scope](evals/README.md) before interpreting any result. A formatted Skill is not evidence of better user outcomes.
+The repository includes [regression prompts](evals/cases.json), including authorized continuation, expert density, feedback iteration, and non-interface documents. Read [validation scope](evals/README.md) before interpreting any result. A formatted Skill is not evidence of better user outcomes.
 
-To report a failure, open an issue with a sanitized task, the observed output, and the consequence. To contribute, submit the smallest rule or example that addresses an observable defect. Do not include private customer data, transcripts, credentials, or product screenshots you cannot publish.
+To report a failure, [share a sanitized task, actual output, and consequence](https://github.com/Friedrich-arthur/instinct-design/issues/new/choose). To contribute, submit the smallest rule or example that addresses an observable defect. Do not include private customer data, transcripts, credentials, or product screenshots you cannot publish.
 
 Maintainers can rerun the integrity and article checks in the [contribution guide](CONTRIBUTING.md).
+
+The [peer comparison and refinement record](docs/skill-refinement.md) explains the methods used, the choices adopted, and what was not measured.
 
 The [growth plan](docs/growth-plan.md) links six executable tickets. The [launch kit](docs/launch-kit.md) provides channel-specific lessons and directory listing text. Publication, indexing, real adoption, and Stars are tracked separately.
 

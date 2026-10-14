@@ -37,7 +37,7 @@
         "name": "Instinct design Skill | Improve your product with design philosophy",
         "description": "An independent open-source method to optimize a product with Instinct-inspired design philosophy.",
         "inLanguage": "en",
-        "dateModified": "2026-10-13",
+        "dateModified": "2026-10-14",
         "mainEntity": { "@id": "https://friedrich-arthur.github.io/instinct-design/#work" }
       },
       {
@@ -49,7 +49,7 @@
         "creator": { "@type": "Person", "name": "Friedrich-arthur", "url": "https://github.com/Friedrich-arthur" },
         "license": "https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE",
         "inLanguage": ["en", "zh-CN"],
-        "dateModified": "2026-10-13",
+        "dateModified": "2026-10-14",
         "isBasedOn": ["https://instinct.com/", "https://colossus.com/episode/instinct-the-personal-agent/"],
         "mainEntityOfPage": { "@id": "https://friedrich-arthur.github.io/instinct-design/#page" }
       }
@@ -145,15 +145,19 @@
         <div><p class="section-label">04 / Put it to work</p><h2 id="install-title">Bring your product.<br>Get a concrete change.</h2><p>Install the Skill in an agent that supports Agent Skills. Share an artifact and the user's job. Ask for a usable improvement, its before/after consequence, and a check.</p></div>
         <div class="install-panel">
           <p class="code-label">Install with the Skills CLI</p>
-          <div class="command-row"><pre><code id="install-command">npx skills add Friedrich-arthur/instinct-design --skill instinct-design</code></pre><button class="copy-button" type="button" hidden data-copy="install-command" data-copied="Copied" data-failed="Select the command and copy it." data-success="Installation command copied.">Copy</button></div>
-          <p class="copy-status" role="status" aria-live="polite" data-copy-status></p>
+          <div class="command-row"><pre><code id="install-command">npx skills add Friedrich-arthur/instinct-design --skill instinct-design</code></pre><button class="copy-button" type="button" hidden data-copy="install-command" aria-describedby="install-copy-status" data-copied="Copied" data-failed="Select the command and copy it." data-success="Installation command copied.">Copy</button></div>
+          <p class="copy-status" id="install-copy-status" role="status" aria-live="polite" data-copy-status></p>
           <p class="fine-print">Choose your agent and installation scope in the CLI. Review the repository before running third-party installation commands.</p>
           <p class="code-label prompt-label">Then try</p>
-          <pre class="prompt"><code>Use $instinct-design to improve this product.
+          <pre class="prompt"><code id="product-prompt">Use $instinct-design to improve this product.
 Inspect the screen, flow, spec, or code and deliver a concrete change.
 Keep working behavior and critical constraints.
 Show the before/after difference and check the same task.
 Next iteration: use the previous artifact and real feedback.</code></pre>
+          <button class="copy-button" type="button" hidden data-copy="product-prompt" aria-describedby="product-copy-status" data-copied="Copied" data-failed="Select the request and copy it." data-success="Product request copied.">Copy the request</button>
+          <p class="copy-status" id="product-copy-status" role="status" aria-live="polite" data-copy-status></p>
+          <p><a class="text-link" href="https://github.com/Friedrich-arthur/instinct-design/issues/new/choose">Tried it? Share the task and actual result <span aria-hidden="true">↗</span></a></p>
+          <p><a class="text-link" href="https://github.com/Friedrich-arthur/instinct-design/blob/main/examples/04-product-iteration.md">See a complete product iteration <span aria-hidden="true">↗</span></a></p>
           <a class="text-link" href="https://github.com/Friedrich-arthur/instinct-design">Read installation and examples on GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </div>
@@ -179,6 +183,6 @@ Next iteration: use the previous artifact and real feedback.</code></pre>
       </div>
     </section>
   </main>
-  <footer class="site-footer wrap"><p>Instinct design · Original material © 2026 Friedrich-arthur · <a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE">MIT</a></p><p>Updated 13 October 2026 · <a href="zh/" lang="zh-CN" hreflang="zh-CN">中文</a></p></footer>
+  <footer class="site-footer wrap"><p>Instinct design · Original material © 2026 Friedrich-arthur · <a href="https://github.com/Friedrich-arthur/instinct-design/blob/main/LICENSE">MIT</a></p><p>Updated 14 October 2026 · <a href="zh/" lang="zh-CN" hreflang="zh-CN">中文</a></p></footer>
 </body>
 </html>

@@ -1,7 +1,7 @@
 document.querySelectorAll('[data-copy]').forEach((button) => {
   if (!navigator.clipboard?.writeText) return;
   const command = document.getElementById(button.dataset.copy);
-  const status = button.closest('.install-panel').querySelector('[data-copy-status]');
+  const status = document.getElementById(button.getAttribute('aria-describedby'));
   const label = button.textContent;
   button.hidden = false;
   button.addEventListener('click', async () => {

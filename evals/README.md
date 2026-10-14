@@ -4,6 +4,8 @@ The first version was checked on 2026-10-13 using the actual files and small, qu
 
 ## Package checks
 
+The latest [v0.5.0 refinement checks](refinement-2026-10-14.md) include fresh expert-table and non-interface artifacts, a separate follow-up from actual internal review, and the static safety result. The historical runs below retain their original versions and limits.
+
 - The Codex skill-creator validator accepted the Skill's frontmatter and structure.
 - The Skills CLI discovered exactly one local Skill, named `instinct-design`.
 - Local references, UTF-8 text, JSON cases, and SVG syntax were checked. Public files were reviewed for private paths and credentials.

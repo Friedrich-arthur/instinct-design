@@ -32,6 +32,12 @@ npx skills add Friedrich-arthur/instinct-design --skill instinct-design
 
 下一轮带上前一版产物和真实反馈或失败，它会围绕同一个任务继续修正。只改一句消息时，直接给可用消息；设计界面时给具体布局，需要实现时修改实际产品。输出沿用当前任务语言。
 
+从已有材料选一个入口：
+
+- **改一个页面。** "用 $instinct-design 检查这个页面。找出最影响[用户任务]的障碍，交付最小且有用的改动。"
+- **改一个流程。** "用 $instinct-design 优化这个流程。让结果、下一步和失败恢复清楚，保留现有设计系统。"
+- **根据真实反馈继续修。** "用 $instinct-design 读取前一版产物和这次实际反馈。保留已接受的决定，修正失败位置，再检查同一个任务。"
+
 ## 设计方法
 
 - 结论先行，首句说明真实结果或当前状态。
@@ -68,11 +74,13 @@ npx skills add Friedrich-arthur/instinct-design --skill instinct-design
 
 ## 验证与贡献
 
-提供 [5 个行为试用请求](evals/cases.json)，包含已有授权和极简隐藏付款风险等边界。实际检查范围见 [验证记录](evals/README.md)。格式通过不等于真实用户效果。
+提供[回归请求](evals/cases.json)，覆盖已有授权、专家密度、反馈迭代和无界面文档等边界。实际检查范围见[验证记录](evals/README.md)。格式通过不等于真实用户效果。
 
-遇到失效时，用脱敏任务、实际输出和用户后果提交 Issue。贡献优先补一个可复现失败对应的小修正；不要上传私人资料、完整转写、凭据或无权公开的截图。
+遇到失效时，[提交脱敏任务、实际输出和用户后果](https://github.com/Friedrich-arthur/instinct-design/issues/new/choose)。贡献优先补一个可复现失败对应的小修正；不要上传私人资料、完整转写、凭据或无权公开的截图。
 
 维护者可以按[贡献指南](CONTRIBUTING.md)复跑包检查和文章生成检查。
+
+[同类对标与打磨记录](docs/skill-refinement.md)说明实际使用的方法、采纳的取舍和未测范围。
 
 [优化与增长计划](docs/growth-plan.md) 链接 6 个可执行任务。[传播包](docs/launch-kit.md) 给渠道文案、分享素材和目录条目；准备、发布、收录、采用与 Star 分别确认。
 

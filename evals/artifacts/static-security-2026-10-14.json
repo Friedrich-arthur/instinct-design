@@ -1,0 +1,17 @@
+{
+  "skill_name": "instinct-design",
+  "skill_path": "skills/instinct-design",
+  "verdict": "PASS",
+  "summary": {
+    "critical": 0,
+    "high": 0,
+    "info": 0,
+    "total": 0
+  },
+  "stats": {
+    "files_scanned": 14,
+    "scripts_scanned": 0,
+    "md_files_scanned": 11
+  },
+  "findings": []
+}
